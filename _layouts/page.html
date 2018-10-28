@@ -33,9 +33,8 @@ layout: default
                 sidebar-container">
 
                 <!-- Featured Tags -->
-                {% if site.featured-tags %}
+                <!-- {% if site.featured-tags %}
                 <section>
-                    <!-- no hr -->
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
                     <div class="tags">
         				{% for tag in site.tags %}
@@ -47,10 +46,10 @@ layout: default
         				{% endfor %}
         			</div>
                 </section>
-                {% endif %}
+                {% endif %} -->
 
                 <!-- Friends Blog -->
-                {% if site.friends %}
+                <!-- {% if site.friends %}
                 <hr>
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
@@ -60,7 +59,7 @@ layout: default
                 </ul>
                 {% endif %}
             </div>
-        {% else %}
+        {% else %} -->
 
 <!-- USE SIDEBAR -->
     <!-- PostList Container -->
@@ -82,7 +81,7 @@ layout: default
                 sidebar-container
             ">
                 <!-- Featured Tags -->
-                {% if site.featured-tags %}
+                <!-- {% if site.featured-tags %}
                 <section>
                     <hr class="hidden-sm hidden-xs">
                     <h5><a href="{{'/tags/' | prepend: site.baseurl }}">FEATURED TAGS</a></h5>
@@ -96,10 +95,10 @@ layout: default
                         {% endfor %}
                     </div>
                 </section>
-                {% endif %}
+                {% endif %} -->
 
                 <!-- Short About -->
-                <section class="visible-md visible-lg">
+                <!-- <section class="visible-md visible-lg">
                     <hr><h5><a href="{{'/about/' | prepend: site.baseurl }}">ABOUT ME</a></h5>
                     <div class="short-about">
                         {% if site.sidebar-avatar %}
@@ -109,9 +108,9 @@ layout: default
                         {% endif %}
                         {% if site.sidebar-about-description %}
                             <p>{{site.sidebar-about-description}}</p>
-                        {% endif %}
+                        {% endif %} -->
                         <!-- SNS Link -->
-                        <ul class="list-inline">
+                        <!-- <ul class="list-inline">
                             {% if site.RSS %}
                             <li>
                                 <a href="{{ "/feed.xml" | prepend: site.baseurl }}">
@@ -121,9 +120,9 @@ layout: default
                                     </span>
                                 </a>
                             </li>
-                            {% endif %}
+                            {% endif %} -->
                             <!-- add jianshu add target = "_blank" to <a> by BY -->
-                            {% if site.jianshu_username %}
+                            <!-- {% if site.jianshu_username %}
                             <li>
                                 <a target="_blank" href="https://www.jianshu.com/u/{{ site.jianshu_username }}">
                                     <span class="fa-stack fa-lg">
@@ -189,9 +188,9 @@ layout: default
                             <p>✉️ {{site.email}}</p>
                         {% endif %}
                     </div>
-                </section>
+                </section> -->
                 <!-- Friends Blog -->
-                {% if site.friends %}
+                <!-- {% if site.friends %}
                 <hr>
                 <h5>FRIENDS</h5>
                 <ul class="list-inline">
@@ -199,7 +198,7 @@ layout: default
                         <li><a href="{{friend.href}}">{{friend.title}}</a></li>
                     {% endfor %}
                 </ul>
-                {% endif %}
+                {% endif %} -->
     		</div>
         {% endif %}
 	</div>
