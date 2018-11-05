@@ -74,6 +74,7 @@ _.pick(object, ['a', 'c']);
 * [iteratee=_.identity] (Array|Function|Object|string): 这个迭代函数用来转换key。 (筛选参数 用来查找集合里的正确的数据)
 * 返回
 * (Object): 返回一个组成聚合的对象。
+
 ```
 _.groupBy([6.1, 4.2, 6.3], Math.floor);
 // => { '4': [4.2], '6': [6.1, 6.3] }
@@ -113,6 +114,7 @@ jQuery(window).on('popstate', throttled.cancel);
 ```
 
 * 在vue中的使用
+
 ```
 methods: {
     sendMessage: _.throttle(function (newVal) {
@@ -133,10 +135,4 @@ watch: {
 }
 ```
 
-
-
-### 问题
->1、这样使用能是vscode自动检测到代码不符合的地方 但是和vue-cli3 提供的eslint Standard 风格 有部分规则不能检测
->2、如果vue使用less会对css检测进行报错 因为检测的是标准的css格式而不是less的格式
->3、不能全局配置规则，不然会对老项目疯狂报错
-
+### 持续更新。。。
